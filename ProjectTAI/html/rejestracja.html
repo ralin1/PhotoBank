@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>  
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Rejestracja</title>
+        <link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.min.css">
+        <link href="sing.css" rel="stylesheet">
+    </head>
+    <body>
+        <div class="container">
+            <form class="form-singin" action="php/Rejestracja.php" method="POST">
+                <h2 class="form-signin-heading">Rejestracja</h2>
+                <br> <label> Login: </label> <input class="form-control" type="text" name="login">
+                <br> <label> Surname: </label> <input class="form-control" type="text" name="surname">
+                <br> <label> Email: </label> <input class="form-control" type="text" name="email">
+                <br> <label> Hasło: </label> <input class="form-control" type="password" name="pass">
+
+                <br> <input class="btn btn-lg btn-primary btn-block" type="submit" name="enter" value="Enter">
+            </form>
+        </div>
+    </body>
+</html>
